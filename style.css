@@ -1,0 +1,97 @@
+body  {
+    background-color: mistyrose;
+}
+body{
+    color:white;
+    text-align: center;
+    text-shadow: #040404 2px 2px 4px;
+}
+header{
+    background-image: url("https://i.etsystatic.com/48715412/r/il/0c337f/6862234890/il_fullxfull.6862234890_7842.jpg");
+    min-height:50vh;
+    width: 100%;
+    background-size: cover ;
+    background-repeat:no-repeat;
+    background-position: center;
+    color: white;
+    padding:20px;
+}
+main{
+    background-color:mistyrose;
+    height: 50vh;
+    width: 100%;
+    background-size: cover ;
+    background-position: center;
+    color: white;
+    padding:20px;
+}
+body{
+    display:grid;
+    place-items: center;
+    height:100%;
+
+
+
+}
+footer{
+    background-color:palevioletred;
+    height: 50vh;
+    width: 100%;
+    background-size: cover ;
+    background-position: center;
+    color: white;
+    padding:20px;
+}
+
+    
+
+.menu{
+    display: flex;
+    background-color:purple;
+    padding: 14px 25px;
+    border-radius: calc(infinity *1px);
+    position: fixed;
+    top: 0;
+
+
+}
+
+a{
+    padding: 14px 25px;
+    cursor:pointer;
+    color:magenta;
+    border-radius: calc(infinity *1px);
+
+
+}
+
+a:hover{
+    background-color: magenta;
+    box-shadow: 0px 15px 20px
+    rgba(133, 10, 149, 0.401);
+    color:magenta;
+    
+}
+
+button {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    padding: 15px 30px;
+    text-align:center;
+    display:inline-block;
+    border-radius: calc(infinity *1px);
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 0px 15px 20px 
+    rgba(210, 17, 240, 0.401);
+
+    color: white;
+    
+    }
+
